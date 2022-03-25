@@ -1,18 +1,29 @@
 import React from 'react';
+import Header from "./Components/Header.js";
+import SearchBar from './Components/SearchBar.js';
+import './Components/Style.css';
+import Type from "./Components/Type";
 
-function App() {
+const App = () => {
   return (
-    <div style={{ textAlign: 'center' }}>
-      <header>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div class = 'header' >
+        <Header 
+          headername = {"Twitter"}
+          />
+      </div>
+      <div class = 'header1'>
+        <h1>What's happening?</h1>
+     </div>
+     <div>
+      
+      <SearchBar/>
+     </div>
+     <div class = 'createTweet'>
+       <Type/>
+     </div>
+
     </div>
   );
 }
-
 export default App;

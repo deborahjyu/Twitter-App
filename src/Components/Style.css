@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: inline-block;
+    font-size: 100px; 
+    padding: 25px;
+    font-weight: bold;
+    color:rgb(85, 85, 216)
+}
+
+.header1 {
+    padding-bottom: 50px;
+    font-size: 15px; 
+    padding-left: 30px;
+}
+
+.name {
+    font-size: 15px;
+    padding: 4px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.username {
+    padding: 4px;
+    padding-left: 20px;
+}
+.tweet {
+    display: inline-block;
+    padding: 12px;
+    padding-left: 20px;
+}
+.likes {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.time {
+    padding-top: 5px;
+    color: gray;
+    padding-left: 20px;
+}
+.date {
+    padding: 1px;
+    color: gray;
+    padding-left: 20px;
+}
+
+.retweets {
+    padding: 1px;
+}
+
+.createTweet{
+    padding: 22px;
+}
+.tweetstyle{
+    padding-left: 20px;
+    border: 20px solid rgb(85, 85, 216);
+    padding: 12px;
+}
+
+.search{
+    padding-left: 20px;
+}
