@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Tweet from "../Components/Tweet";
 
 function SearchBar(){
     const[search, setSearch] = useState("");
@@ -9,7 +8,6 @@ function SearchBar(){
             <button onClick = {() => setSearch()}>
                 Search
             </button>
-            {Tweet.filter((individualTweet)=> {return search.tweet.includes(setSearch)})}
         </div>
         
 

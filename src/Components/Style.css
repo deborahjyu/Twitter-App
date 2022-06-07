@@ -1,19 +1,21 @@
 * {
-    margin: 0px;
+    margin: 10px;
     padding: 0px;
 }
 .header{
-    display: inline-block;
     font-size: 100px; 
     padding: 25px;
     font-weight: bold;
-    color:rgb(85, 85, 216)
+    color:rgb(85, 85, 216);
+    background-color:rgb(177, 210, 225);
 }
 
 .header1 {
     padding-bottom: 50px;
     font-size: 15px; 
-    padding-left: 30px;
+    padding-left: 40px;
+    padding: 20px;
+    padding-bottom: 20px;
 }
 
 .name {
@@ -37,11 +39,13 @@
     padding-left: 20px;
 }
 .time {
+    font-size: 13px;
     padding-top: 5px;
     color: gray;
     padding-left: 20px;
 }
 .date {
+    font-size: 13px;
     padding: 1px;
     color: gray;
     padding-left: 20px;

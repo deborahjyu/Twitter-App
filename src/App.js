@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from "./Components/Header.js";
-import SearchBar from './Components/SearchBar.js';
 import './Components/Style.css';
 import Type from "./Components/Type";
 
@@ -14,10 +13,6 @@ const App = () => {
       </div>
       <div class = 'header1'>
         <h1>What's happening?</h1>
-     </div>
-     <div>
-      
-      <SearchBar/>
      </div>
      <div class = 'createTweet'>
        <Type/>

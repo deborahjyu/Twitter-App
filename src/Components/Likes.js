@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import emptyHeart from '../Photos/emptyHeart.png';
 import redHeart from '../Photos/redHeart.webp';
 
@@ -12,6 +12,9 @@ const Counter = () =>{
             setCount(0)
         }
     }
+useEffect(() => {
+    setTimeout(()=> setCount(count+1), 5000);
+}, []);
 
     return(
         <div style = {{display:'flex', paddingLeft: 20}}>
